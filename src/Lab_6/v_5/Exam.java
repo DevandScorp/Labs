@@ -1,10 +1,15 @@
 package Lab_6.v_5;
 
-public class Exam {
+import java.io.Serializable;
+import java.util.Date;
+import java.util.Locale;
+
+public class Exam implements Serializable {
     private Subject subject;
     private String teacher;
     private int mark;
-
+    private Date date;
+    private Locale locale;
     public Subject getSubject() {
         return subject;
     }
@@ -19,7 +24,7 @@ public class Exam {
                 "subject=" + subject +
                 ", teacher='" + teacher + '\'' +
                 ", mark=" + mark +
-                '}';
+                '}'+ "\nWas created: " + DateLocaleFormat.getTimeStyle(date,locale);
     }
 
     public String getTeacher() {
@@ -38,8 +43,9 @@ public class Exam {
         this.mark = mark;
     }
 
-    public Exam(Subject subject, String teacher) {
-
+    public Exam(Subject subject, String teacher,Locale locale) {
+        this.locale = locale;
+        this.date = new Date();
         this.subject = subject;
         this.teacher = teacher;
         mark = 0;
