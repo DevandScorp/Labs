@@ -2,6 +2,7 @@ package Lab_4;
 
 import java.util.Arrays;
 
+import Lab_4.Quadratic;
 public class Test {
     public static void main(String[] args) {
         Quadratic[] quadratics = new Quadratic[6];
