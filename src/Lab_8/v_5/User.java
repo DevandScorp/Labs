@@ -1,6 +1,7 @@
 package Lab_8.v_5;
 
 import java.io.Serializable;
+import java.lang.reflect.Field;
 import java.util.Date;
 
 public class User implements Serializable {
@@ -14,40 +15,20 @@ public class User implements Serializable {
     private Date dealDate;
     private long userPay;
     private Date lastPay;
-    private static int index = 0;
-    public static void setIndex(int index1){
-        if(index1<0 || index1>9){
-            System.out.println("Wrong index");
-            System.exit(0);
-        }
-        index = index1;
+    private static String field = "name";
+    public static String getFieldVal(){
+        return field;
     }
-    public Object getField(){
-        switch(index){
-            case 0:
-                return this.name;
-            case 1:
-                return this.surname;
-            case 2:
-                return this.patronymic;
-            case 3:
-                return this.phone;
-            case 4:
-                return this.area;
-            case 5:
-                return this.address;
-            case 6:
-                return this.dealNumber;
-            case 7:
-                return this.dealDate;
-            case 8:
-                return this.userPay;
-            case 9:
-                return this.lastPay;
-            default:
-                return null;
-        }
+    public static void setField(String field1) {
+        field = field1;
     }
+
+    public Object getField() throws IllegalAccessException, NoSuchFieldException {
+        Field f = this.getClass().getDeclaredField(field);
+        f.setAccessible(true);
+        return f.get(this);
+    }
+
     public User(String name, String surname, String patronymic, String phone, String area, String address, long dealNumber, Date dealDate, long userPay, Date lastPay) {
         this.name = name;
         this.surname = surname;

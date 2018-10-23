@@ -18,6 +18,10 @@ public class Test {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
         }
         return indexList;
     }
@@ -70,9 +74,9 @@ public class Test {
                         "Ozerco",
                         "Polesskaya",
                         1432670,
-                        new Date(3),
+                        new Date(30000),
                         1432670,
-                        new Date(3)),
+                        new Date(30000)),
 
                 new User("Katya",
                         "Galkina",
@@ -81,9 +85,9 @@ public class Test {
                         "Serebraynka",
                         "undefined1",
                         1432672,
-                        new Date(2),
+                        new Date(20000),
                         1432672,
-                        new Date(2)),
+                        new Date(20000)),
                 new User("Timofey",
                         "Kruk",
                         "Sergeevich",
@@ -91,11 +95,11 @@ public class Test {
                         "Kolodischy",
                         "undefined2",
                         1432671,
-                        new Date(1),
+                        new Date(10000),
                         1432671,
-                        new Date(1))
+                        new Date(10000))
         );
-        User.setIndex(6);
+        User.setField("lastPay");
         Map<Object, Long> write = write(users);
         System.out.println("Вывод данных по убыванию ключа");
         for (var entry : write.entrySet()) {
@@ -104,8 +108,14 @@ public class Test {
         }
         System.out.println();
         System.out.println("Вывод данных по возрастанию ключа");
-        Object[] objects = write.keySet().toArray();
-        Arrays.sort(objects);
-        Arrays.stream(objects).forEach(System.out::println);
+        Object[] entries = write.keySet().toArray();
+        Arrays.sort(entries);
+
+        Arrays.stream(entries).forEach(a->{
+            System.out.println("Key: " + a);
+            System.out.println(read(a,write));
+        }
+        );
+
     }
 }
