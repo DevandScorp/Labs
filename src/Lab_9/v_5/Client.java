@@ -8,10 +8,10 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class TestASClient implements Runnable{
+public class Client implements Runnable{
     private Socket clientSocket;
 
-    public TestASClient(Socket clientSocket) {
+    public Client(Socket clientSocket) {
         this.clientSocket = clientSocket;
     }
 
@@ -35,7 +35,7 @@ public class TestASClient implements Runnable{
         }
     }
     public static void main(String[] args) throws InterruptedException, IOException {
-        new Thread(new TestASClient(new Socket("localhost",3345))).start();
+        new Thread(new Client(new Socket("localhost",3345))).start();
     }
 
 
