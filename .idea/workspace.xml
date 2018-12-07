@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="900406b1-4a2f-490d-bf07-99e494b0a119" name="Default" comment="Labs:Lab_4">
+    <list default="true" id="900406b1-4a2f-490d-bf07-99e494b0a119" name="Default" comment="Lab_5.v_5:solution(used generics)">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab_7/v_5/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_7/v_5/data.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_8/v_5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_8/v_5/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_9/v_5/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_9/v_5/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_9/v_5/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_9/v_5/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_9/v_5/TestAsServer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,44 +22,32 @@
     <session id="966708598">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dat" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="36" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="36" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6784" />
-          <entry key="txt" value="79" />
+          <entry key="java" value="481" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6782" />
-          <entry key="PLAIN_TEXT" value="79" />
-          <entry key="RegExp" value="2" />
+          <entry key="JAVA" value="481" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -62,43 +55,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/enrolees.dat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/User.java">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="181">
+              <caret line="224" column="30" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#466#472#0" expanded="true" />
+                <element signature="e#3049#4099#0" />
+                <element signature="e#5138#5415#0" />
+                <element signature="e#5462#5751#0" />
+                <element signature="e#6648#7431#0" />
+                <element signature="e#7360#8403#0" />
+                <element signature="e#8533#9500#0" />
+                <element signature="e#5412#6190#0" />
+                <element signature="e#10595#11996#0" />
+                <element signature="e#12031#13065#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/Test.java">
+      <file leaf-file-name="dat_3.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/dat_3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_8/v_5/Test.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1251">
-              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/TestAsServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="147">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="148" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,32 +98,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/TestASClient.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab_8/v_5/User.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="170">
+              <caret line="132" column="46" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="46" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -139,7 +125,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -155,42 +140,58 @@
         <option value="$PROJECT_DIR$/src/Lab_2/Text.txt" />
         <option value="$PROJECT_DIR$/src/Lab_2/Main.java" />
         <option value="$PROJECT_DIR$/src/Lab_3/Main.java" />
-        <option value="$PROJECT_DIR$/src/Lab_4/Quadratic.java" />
         <option value="$PROJECT_DIR$/src/Lab_4/Test.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Function.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Ellipse.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Hyperbola.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Test.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Comp.java" />
-        <option value="$PROJECT_DIR$/src/Lab_5/Compex.java" />
-        <option value="$PROJECT_DIR$/src/Gaus.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/Lab_4/Quadratic.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Function.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByA.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByAH.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByBE.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByBH.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortBySE.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortBySH.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortByA.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortByAE.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortByBE.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortBySE.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortByS.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByS2.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Test.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Ellipse.java" />
+        <option value="$PROJECT_DIR$/src/Lab_5/v_5/Hyperbola.java" />
         <option value="$PROJECT_DIR$/src/Lab_6/v_5/Subject.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Connector.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/DateFormatDemo.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Exam.java" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Faculty.java" />
         <option value="$PROJECT_DIR$/src/Lab_6/v_5/Enrollee.java" />
-        <option value="$PROJECT_DIR$/src/Lab_6/v_5/DateLocaleFormat.java" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/File_en.properties" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/resource_be.properties" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/resource_en.properties" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/resource_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/Exam.java" />
         <option value="$PROJECT_DIR$/src/Lab_6/v_5/Test.java" />
-        <option value="$PROJECT_DIR$/src/Lab_7/v_5/Гыук.java" />
-        <option value="$PROJECT_DIR$/src/Lab_7/v_5/User.java" />
+        <option value="$PROJECT_DIR$/src/Lab_6/v_5/teachers.dat" />
+        <option value="$PROJECT_DIR$/src/Lab_4/v_5/Lab_4/Test.java" />
         <option value="$PROJECT_DIR$/src/Lab_7/v_5/Test.java" />
         <option value="$PROJECT_DIR$/src/Lab_8/v_5/User.java" />
         <option value="$PROJECT_DIR$/src/Lab_8/v_5/Test.java" />
         <option value="$PROJECT_DIR$/src/Lab_9/v_5/Client.java" />
         <option value="$PROJECT_DIR$/src/Lab_9/v_5/Server.java" />
-        <option value="$PROJECT_DIR$/src/Lab_9/v_5/TestAsClient.java" />
-        <option value="$PROJECT_DIR$/src/Lab_9/v_5/TestASClient.java" />
-        <option value="$PROJECT_DIR$/src/Lab_9/v_5/TestAsServer.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/src/MyController.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/src/MyView.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/User.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/View.java" />
+        <option value="$PROJECT_DIR$/src/Lab_10/v_5/Test.java" />
+        <option value="$PROJECT_DIR$/src/Lab_11/v_5/User.java" />
+        <option value="$PROJECT_DIR$/src/Lab_11/v_5/data.dat" />
+        <option value="$PROJECT_DIR$/src/Lab_11/v_5/Test.java" />
+        <option value="$PROJECT_DIR$/src/Lab_11/v_5/View.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-102" />
-    <option name="y" value="48" />
-    <option name="width" value="1386" />
-    <option name="height" value="658" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,7 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,24 +210,7 @@
             <path>
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
@@ -248,133 +232,47 @@
             </path>
             <path>
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541944152089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537889477628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.16113281" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Lab_8/v_5/Test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Lab_8/v_5/User.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Lab_8/v_5/data.dat</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lab_6.v_5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labs\src\Lab_8\v_5" />
+      <recent name="C:\Users\User\IdeaProjects\Labs\src" />
+      <recent name="C:\Users\User\IdeaProjects\Labs\src\Lab_7\v_5" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab_10.v_5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labs\src\Lab_6\v_5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestASClient">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab_9.v_5.Client" />
       <module name="Labs" />
@@ -399,102 +297,115 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_9.v_5.Server" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_11.v_5.Main" />
       <module name="Labs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_9.v_5.*" />
+          <option name="PATTERN" value="Lab_11.v_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_8.v_5.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_10.v_5.Main" />
       <module name="Labs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_8.v_5.*" />
+          <option name="PATTERN" value="Lab_10.v_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="TestASClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_9.v_5.TestASClient" />
+    <configuration name="MyController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_10.v_5.src.MyController" />
       <module name="Labs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_9.v_5.*" />
+          <option name="PATTERN" value="Lab_10.v_5.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="TestAsServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_9.v_5.TestAsServer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_11.v_5.Test" />
       <module name="Labs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_9.v_5.*" />
+          <option name="PATTERN" value="Lab_11.v_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.TestAsServer" />
-      <item itemvalue="Application.TestASClient" />
+      <item itemvalue="Application.MyController" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestASClient" />
-        <item itemvalue="Application.TestAsServer" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyController" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -523,60 +434,76 @@
       <option name="project" value="LOCAL" />
       <updated>1536781316798</updated>
     </task>
-    <task id="LOCAL-00003" summary="Labs:Lab_4">
-      <created>1537889598105</created>
+    <task id="LOCAL-00003" summary="Lab_5.v_5:solution(used generics)">
+      <created>1538834458518</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1537889598105</updated>
+      <updated>1538834458518</updated>
     </task>
-    <task id="LOCAL-00004" summary="Labs:Lab_6.v_5:complete solution">
-      <created>1539505870785</created>
+    <task id="LOCAL-00004" summary="feat: Lab_7.v_5&#10;refactor: remove Lab_6 due to it's own project realization">
+      <created>1540117726260</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1539505870785</updated>
+      <updated>1540117726260</updated>
     </task>
-    <task id="LOCAL-00005" summary="feat: возрастание,убывание вывода">
-      <created>1540318124687</created>
+    <task id="LOCAL-00005" summary="Lab_8.v_5:add few functions">
+      <created>1540232876156</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1540318124687</updated>
+      <updated>1540232876156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Lab_8.v_5 solution">
+      <created>1540453935993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540453935993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.29051173" />
-      <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" weight="0.29051173" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.21800433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" weight="0.29284164" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49853587" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3726208" side_tool="true" visible="true" weight="0.31160572" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62737924" visible="true" weight="0.31160572" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21229868" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -584,146 +511,276 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#1" />
-    <MESSAGE value="Labs:Lab_4" />
-    <MESSAGE value="Labs:Lab_6.v_5:complete solution" />
-    <MESSAGE value="feat: возрастание,убывание вывода" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: возрастание,убывание вывода" />
+    <MESSAGE value="Lab_5.v_5:solution(used generics)" />
+    <MESSAGE value="feat: Lab_7.v_5&#10;refactor: remove Lab_6 due to it's own project realization" />
+    <MESSAGE value="Lab_8.v_5:add few functions" />
+    <MESSAGE value="feat: Lab_8.v_5 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Lab_8.v_5 solution" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Hyperbola/SortBySH.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Hyperbola/SortByBH.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Hyperbola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Hyperbola/SortByAH.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Hyperbola/SortByBH.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Hyperbola/SortBySH.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/Eliipses/SortByAE.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByS2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Ellipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Hyperbola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Comparators/SortByA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Subject.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Enrollee.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Connector.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/File_en.properties" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Faculty.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/DateLocaleFormat.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Exam.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab_2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab_3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Function.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Ellipse.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Compex.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Comp.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_5/Hyperbola.java" />
-    <entry file="file://$PROJECT_DIR$/src/Gaus.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_4/Quadratic.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_4/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_2/Text.txt">
+    <entry file="file://$PROJECT_DIR$/src/Lab_4/v_5/Lab_4/Quadratic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_4/v_5/Lab_4/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab_5/v_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="1241">
+          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person.dat" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/person.dat" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/DateLocaleFormat.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Connector.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Teacher.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/data.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Subject.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Faculty.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Exam.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Enrollee.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab_6/v_5/enrolees.dat">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_8/v_5/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/TestAsServer.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/TestASClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_10/v_5/src/MyView.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_10/v_5/src/models/Invoice.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab_10/v_5/src/MyController.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab_8/v_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1251">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        <state relative-caret-position="1989">
+          <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
+          <folding>
+            <element signature="method#removeByIndex#0;class#Test#0" />
+            <element signature="method#write#0;class#Test#0" />
+            <element signature="method#read#0;class#Test#0" />
+            <element signature="method#serialize#0;class#Test#0" />
+            <element signature="method#deserialize#0;class#Test#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab_9/v_5/TestAsServer.java">
+    <entry file="file://$PROJECT_DIR$/src/src/models/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_7/v_5/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1371">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_8/v_5/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="147" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/data_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/data.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/dat_3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="132" column="46" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="148" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_11/v_5/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="224" column="30" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#472#0" expanded="true" />
+            <element signature="e#3049#4099#0" />
+            <element signature="e#5138#5415#0" />
+            <element signature="e#5462#5751#0" />
+            <element signature="e#6648#7431#0" />
+            <element signature="e#7360#8403#0" />
+            <element signature="e#8533#9500#0" />
+            <element signature="e#5412#6190#0" />
+            <element signature="e#10595#11996#0" />
+            <element signature="e#12031#13065#0" />
           </folding>
         </state>
       </provider>
@@ -745,7 +802,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -785,6 +842,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
