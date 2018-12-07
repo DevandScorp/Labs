@@ -104,6 +104,7 @@ public class Test {
 
     public static User read(Object index, Map<Object, Long> users) {
         long dataPointer = users.get(index);
+
         try (RandomAccessFile data = new RandomAccessFile(PATH, "rw")) {
             data.seek(dataPointer);
             byte[] b = new byte[1024];
@@ -120,7 +121,8 @@ public class Test {
     }
 
     public static byte[] serialize(User user) {
-        try (ByteArrayOutputStream baos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(baos);) {
+        try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
+             ObjectOutputStream oos = new ObjectOutputStream(baos);) {
             oos.writeObject(user);
             oos.flush();
             return baos.toByteArray();

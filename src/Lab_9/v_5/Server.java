@@ -5,7 +5,7 @@ import java.net.Socket;
 
 public class Server {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         try (ServerSocket server= new ServerSocket(3345)){
             while(true){
                 Socket client = server.accept();
@@ -23,7 +23,6 @@ public class Server {
                         e.printStackTrace();
                     }
                 }).start();
-
             }
         } catch (IOException e) {
             e.printStackTrace();

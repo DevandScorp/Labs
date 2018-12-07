@@ -17,7 +17,7 @@ public class Client implements Runnable{
 
     @Override
     public void run() {
-        try(BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
+        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             DataOutputStream oos = new DataOutputStream(clientSocket.getOutputStream());
             DataInputStream ois = new DataInputStream(clientSocket.getInputStream()))
         {
@@ -37,6 +37,4 @@ public class Client implements Runnable{
     public static void main(String[] args) throws InterruptedException, IOException {
         new Thread(new Client(new Socket("localhost",3345))).start();
     }
-
-
 }
